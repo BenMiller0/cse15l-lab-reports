@@ -15,6 +15,9 @@ The orginal directory was inside of lecture1, but after excuting cd without an a
 ```
 The orginal directory was just the user, but after excuting cd with the argument "lecture1" it added /lecture1 to the end of the directory path.
 
+```
+
+```
 
 test1
 <br />
