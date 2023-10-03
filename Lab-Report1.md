@@ -1,7 +1,7 @@
 # Lab Report 1
 
 ## cd command
-Not an error. Executing cd with no arguement caused the orginal directory was inside of lecture1, but after excuting cd without an arguement it went back to just the user file directory:
+Not an error. Executing cd with no arguement caused the orginal directory was inside of lecture1 to change back to the user file directory:
 ```
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ 
