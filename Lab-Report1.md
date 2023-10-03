@@ -3,7 +3,11 @@
 ## cd command
 No arguements:
   
-![Image](https://github.com/BenMiller0/cse15l-lab-reports/blob/main/cd1.png)
+```
+[user@sahara ~]$ cd
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd
+```
 <br />
 The orginal directory was 
 
