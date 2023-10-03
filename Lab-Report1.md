@@ -36,5 +36,31 @@ Hello.java
 [user@sahara ~/lecture1]$
 ```
 ## cat command
+Running the cat command with no arguement did not really throw an error, but nothing happened because it had nothing to add together:
+```
+[user@sahara ~]$ cat
+```
+Running cat with just a directory as an arguement resulted in an error with a message telling the user that lecture 1 is a directory, so the cat command cannot be ran on it:
+```
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+[user@sahara ~]$
+```
+Not an error. Running cat with a .java printed all of the code within the file.
+```
+[user@sahara ~/lecture1]$ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}[user@sahara ~/lecture1]$
+```
+
 
 <br />
