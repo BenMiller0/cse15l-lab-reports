@@ -4,6 +4,7 @@
 Code for String Server:
 <br>
 ![code](https://github.com/BenMiller0/cse15l-lab-reports/blob/main/Code.jpg)
+![oneword](https://github.com/BenMiller0/cse15l-lab-reports/blob/main/onewordadded.jpg)
 
 
 ## Part 2
