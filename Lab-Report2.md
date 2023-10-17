@@ -8,7 +8,6 @@ Code for String Server:
 One word added:
 <br>
 ![oneword](onewordadded.jpg)
-<br>
 Two words added:
 <br>
 ![twoword](twowordsadded.jpg)
