@@ -11,7 +11,7 @@ Not an error. After excuting cd with the lecture1 directory as the arguement, it
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
 ```
-Running cd with a file as the arguement caused what appears to be an error message to be displayed telling the user that the given file is not an arguement. This is because cd cannot take a specific file as an arguement:
+Running cd with a file as the arguement inside the lecture1 directory caused what appears to be an error message to be displayed telling the user that the given file is not an arguement. This is because cd cannot take a specific file as an arguement:
 ```
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
@@ -36,11 +36,11 @@ Hello.java
 [user@sahara ~/lecture1]$
 ```
 ## cat command
-Running the cat command with no arguement did not really throw an error, but nothing happened because it had nothing to add together:
+Running the cat command with the user as the currect directory with no arguement did not really throw an error, but nothing happened because it had nothing to add together:
 ```
 [user@sahara ~]$ cat
 ```
-Running cat with just a directory as an arguement resulted in an error with a message telling the user that lecture 1 is a directory, so the cat command cannot be ran on it:
+Running cat with just a directory as an arguement resulted in an error with a message telling the user that lecture 1 is a directory, so the cat command cannot be ran on it because cat concatenates files together so it cannot take a directory as an arguement:
 ```
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
