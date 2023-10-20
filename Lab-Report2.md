@@ -7,13 +7,14 @@ Code for String Server:
 <br>
 
 
-
+<br>
 One word added:
 <br>
 ![oneword](onewordadded.jpg)
 <br>
+The method that is called is the handleRequest method. It takes in the URL as an arguement. The URL is then spliced into the String array named args. The element at index zero which in this case is
 
-
+<br>
 Two words added:
 <br>
 ![twoword](twowordsadded.jpg)
