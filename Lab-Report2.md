@@ -26,8 +26,14 @@ The method that is called is the handleRequest method. It takes in the URL as an
 
 
 ## Part 2
+Public and private key on my computer using the ls command:
+![pic](lsPubandPriv1.jpg)
+<br>
+Path to public key for loging onto ieng6:
 
-
-
+<br>
+Loging into ieng6 without being prompted for my password:
+![loginNoPassword](loginNoPassword.jpg)
+<br>
 ## Part 3
 In the week 2 lab I learned that the "java" command can be used to start a server. In the past I thought it was simpely used to excute what is within the main method, but in lab 2 I learned it had the additional application of also starting up a server.
