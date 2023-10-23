@@ -28,6 +28,7 @@ The method that is called is the handleRequest method. It takes in the URL as an
 ## Part 2
 <br>
 Public and private key on my computer using the ls command:
+<br>
 ![pic](lsPubandPriv1.jpg)
 <br>
 Path to public key for loging onto ieng6:
