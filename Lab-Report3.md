@@ -5,7 +5,8 @@ Failure inducing intput:
 code1
 ```
 <br>
-An input that doesn't induce failue:
+An input that doesn't induce failure:
+<br>
 ```
 code2
 ```
