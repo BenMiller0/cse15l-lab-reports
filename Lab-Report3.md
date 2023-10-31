@@ -8,7 +8,7 @@ code1
 An input that doesn't induce failure:
 <br>
 ```
-code2
+code
 ```
 <br>
 
