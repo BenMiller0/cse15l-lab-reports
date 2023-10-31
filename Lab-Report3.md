@@ -1,5 +1,4 @@
 # Lab Report 3
-<br>
 ## Part 1
 Failure inducing intput:
 <br>
