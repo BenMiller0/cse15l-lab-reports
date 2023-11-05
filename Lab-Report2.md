@@ -27,7 +27,7 @@ The method that is called is the `handleRequest` method. It takes in the URL sho
 
 ## Part 2
 <br>
-Public and private key on my computer using the ls command:
+Path to my private key on my personal computer using the ls command:
 <br>
 ![pic](lsPubandPriv1.jpg)
 <br>
