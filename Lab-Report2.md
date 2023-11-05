@@ -29,7 +29,7 @@ The method that is called is the `handleRequest` method. It takes in the URL sho
 <br>
 Path to my private key on my personal computer using the ls command:
 <br>
-![pic](lsPubandPriv1.jpg)
+![pic](privateKey.jpg)
 <br>
 Path to public key for loging onto ieng6:
 ![pic](publicKeyonEng.jpg)
