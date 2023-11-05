@@ -12,7 +12,7 @@ One word added:
 <br>
 ![oneword](onewordadded.jpg)
 <br>
-The method that is called is the handleRequest method. It takes in the URL as an arguement. The URL is then spliced into the String array named args. The element at index one which in this case is the String "yay".The program then takes the current string that is being displayed by the site, adds a new line, adds the number of strings up by one, starts a new line with that number value and a period, and finally adds the new String. This modified the s field which is the field that holds all the strings and their corresponding number. 
+The method that is called is the `handleRequest` method. It takes in the URL as an arguement. The URL is then spliced into the String array named args. The element at index one which in this case is the String "yay".The program then takes the current string that is being displayed by the site, adds a new line, adds the number of strings up by one, starts a new line with that number value and a period, and finally adds the new String. This modified the s field which is the field that holds all the strings and their corresponding number. 
 <br>
 
 <br>
