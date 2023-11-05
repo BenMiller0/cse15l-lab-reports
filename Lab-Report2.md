@@ -39,4 +39,4 @@ Loging into ieng6 without being prompted for my password:
 ![loginNoPassword](loginNoPassword.jpg)
 <br>
 ## Part 3
-In the week 2 lab I learned that the "java" command can be used to start a server. In the past I thought it was simpely used to excute what is within the main method, but in lab 2 I learned it had the additional application of also starting up a server.
+In the week 2 lab I learned that the "java" command can be used to start a server. In the past I thought it was simpely used to excute what is within the main method, but in lab 2 I learned it had the additional application of also starting up a server. I find it interesting because the args array that takes in the arguements in the java command takes in the first element in the array as the server port. In the past I have only used it to take in words or a user's input.
