@@ -31,8 +31,8 @@ Path to my private key on my personal computer using the ls command:
 <br>
 ![pic](privateKey.jpg)
 <br>
-Path to public key for loging onto ieng6:
-![pic](publicKeyonEng.jpg)
+Path to public key for loging onto ieng6 using the ls command:
+![pic](publicKey.jpg)
 
 <br>
 Loging into ieng6 without being prompted for my password:
