@@ -20,7 +20,8 @@ public void testReversedInPlaceSame(){
 }
 ```
 <br>
-
+Symptom of bug:
+![image](Symptom.jpg)
 
 
 ## Part 2
