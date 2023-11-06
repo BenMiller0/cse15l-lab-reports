@@ -155,3 +155,53 @@ $ grep -h "catch" *
 ```
 <br>
 This command is priniting out only the lines that contian the given search querery, not the file names. This could be useful if you are only concered with the lines of content that match and do not care about the file names.
+
+<br>
+The "-c" option prints only the count of lines that match the patern per file. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+<br>
+Example 1:
+```
+timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/government/About_LSC (main)
+$ grep -c "a" *
+Comments_on_semiannual.txt:322
+commission_report.txt:3543
+conference_highlights.txt:238
+CONFIG_STANDARDS.txt:230
+diversity_priorities.txt:390
+LegalServCorp_v_VelazquezDissent.txt:437
+LegalServCorp_v_VelazquezOpinion.txt:418
+LegalServCorp_v_VelazquezSyllabus.txt:111
+ODonnell_et_al_v_LSCdecision.txt:94
+ONTARIO_LEGAL_AID_SERIES.txt:539
+Progress_report.txt:791
+Protocol_Regarding_Access.txt:216
+reporting_system.txt:286
+Special_report_to_congress.txt:668
+State_Planning_Report.txt:2480
+State_Planning_Special_Report.txt:477
+Strategic_report.txt:1112
+```
+Example 2:
+```
+timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/government/About_LSC (main)
+$ grep -c " " *
+Comments_on_semiannual.txt:342
+commission_report.txt:3589
+conference_highlights.txt:242
+CONFIG_STANDARDS.txt:231
+diversity_priorities.txt:394
+LegalServCorp_v_VelazquezDissent.txt:455
+LegalServCorp_v_VelazquezOpinion.txt:446
+LegalServCorp_v_VelazquezSyllabus.txt:117
+ODonnell_et_al_v_LSCdecision.txt:109
+ONTARIO_LEGAL_AID_SERIES.txt:545
+Progress_report.txt:816
+Protocol_Regarding_Access.txt:225
+reporting_system.txt:299
+Special_report_to_congress.txt:676
+State_Planning_Report.txt:2479
+State_Planning_Special_Report.txt:495
+Strategic_report.txt:1123
+```
+<br>
+This command could be useful if you are only concered about the count of lines that contian a certian pattern. A more interesting use that is shown in example 2 is finding how many line contian at least one empty space.
