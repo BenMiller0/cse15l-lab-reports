@@ -51,12 +51,9 @@ The buggy method after:
 <br>
 My fix adresses the issue by storing all of the elements in a seperate array so no element is lost. The orginal method loses some of the elements by copying elements directly over to the other side of the array.
 
-## Part 2
-The "grep" command options:
+## Part 2 - The "grep" command options
 <br>
-Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
-<br>
-The "-l" arguement in the grep command only lists the file names that contian the found lines. 
+The "-l" arguement in the grep command only lists the file names that contian the found lines. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 Example 1:
 ```
