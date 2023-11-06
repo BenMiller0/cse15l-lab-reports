@@ -48,6 +48,45 @@ The buggy method after:
     }
   }
 ```
+<br>
+My fix adresses the issue by storing all of the elements in a seperate array so no element is lost. The orginal method loses some of the elements by copying elements directly over to the other side of the array.
 
 ## Part 2
-The "grep" command options
+The "grep" command options:
+<br>
+Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+<br>
+The "-l" arguement in the grep command only lists the file names that contian the found lines. 
+<br>
+Example 1:
+```
+timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical (main)
+$ grep -l "e" *
+grep: 911report: Is a directory
+grep: biomed: Is a directory
+grep: government: Is a directory
+grep: plos: Is a directory
+```
+Example 2:
+```
+timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/911report (main)
+$ grep -l "e" *
+chapter-1.txt
+chapter-10.txt
+chapter-11.txt
+chapter-12.txt
+chapter-13.1.txt
+chapter-13.2.txt
+chapter-13.3.txt
+chapter-13.4.txt
+chapter-13.5.txt
+chapter-2.txt
+chapter-3.txt
+chapter-5.txt
+chapter-6.txt
+chapter-7.txt
+chapter-8.txt
+chapter-9.txt
+preface.txt
+```
+
