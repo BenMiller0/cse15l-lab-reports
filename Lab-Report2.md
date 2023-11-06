@@ -32,6 +32,7 @@ Path to my private key on my personal computer using the ls command:
 ![pic](privateKey.jpg)
 <br>
 Path to public key for loging onto ieng6 using the ls command:
+<br>
 ![pic](publicKey.jpg)
 
 <br>
