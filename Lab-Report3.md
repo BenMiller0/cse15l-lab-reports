@@ -121,7 +121,7 @@ timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/911rep
 $ grep -o "zzz" *
 ```
 <br>
-In this example, grep did not find any files that contian "zzz" that matched.
+In this example, grep did not find any files that contian "zzz" that matched in the 911report directort.
 <br>
 This command prints out the file name that matches the given string and prints out the contents of the file that matches the string. This could be useful for seeing what specifically matches inside of the files.
 <br>
