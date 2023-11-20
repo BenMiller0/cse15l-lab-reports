@@ -12,7 +12,7 @@ Typed out ssh command from memory as I have to use it alot to login to ieng5. Wa
 Typed git clone and then copy pasted the ssh link from my github fork.
 
 ## Step 6
-![code](step6.jgp)
+![code](step6.jpg)
 <br>
 Typed ```cd la``` and <tab> to auto complete it to ```cd lab3```
 <br>
@@ -23,6 +23,7 @@ Pasted ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` a
 ![image](step7.1.jpg) 
 <br>
 Typed ```vim``` and then ```Lis``` pressed <tab> and then typed ```.java```.
+<br>
 ![image](step7.2.jpg)
 <br>
 Typed ```/fix``` and <enter> to go to the comment above the line that needs to be fixed. Pressed <down> <left> <left> <left> <left> <left> <left> <left> to get to the number that needs to be replaced. Pressed <r> <2> to replace the one with a two. Ran the command ```:wq:``` to save and quit vim.
