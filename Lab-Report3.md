@@ -92,7 +92,7 @@ preface.txt
 In this example I displayed just the file names of the file that contained the letter e in the 911report directory.
 <br>
 This command is searching for all of the files that contian the given string. It can even print out the directories that contian the string. This is useful if you only want to know the files or directories that contian what your looking for and are not concered with their contents.
-
+<br>
 <br>
 The "-o" option only prints the parts of the file that match the given line and what file that line is in. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
@@ -124,6 +124,7 @@ $ grep -o "zzz" *
 In this example, grep did not find any files that contian "zzz" that matched in the 911report directort.
 <br>
 This command prints out the file name that matches the given string and prints out the contents of the file that matches the string. This could be useful for seeing what specifically matches inside of the files.
+<br>
 <br>
 The "-h" option does not show the file name and only shows the matched lines. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
@@ -167,7 +168,7 @@ $ grep -h "catch" *
 In this example I displaced all the lines in all the files in the biomed directory that contian "catches".
 <br>
 This command is priniting out only the lines that contian the given search querery, not the file names. This could be useful if you are only concered with the lines of content that match and do not care about the file names.
-
+<br>
 <br>
 The "-c" option prints only the count of lines that match the patern per file. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
