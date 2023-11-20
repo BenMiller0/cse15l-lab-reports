@@ -194,7 +194,7 @@ State_Planning_Special_Report.txt:477
 Strategic_report.txt:1112
 ```
 <br>
-In this example I searched for all the "a"s in all the files in the directory.
+In this example I searched for the count of all the "a"s in all the files in the directory.
 <br>
 Example 2:
 ```
