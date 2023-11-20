@@ -36,20 +36,19 @@ static void reverseInPlace(int[] arr) {
 The buggy method after:
 ```
   // Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
-    int[] temp = new int[arr.length];
+    static void reverseInPlace(int[] arr) {
     int k = 0;
-    for(int i = arr.length-1; i >= 0; i--){
-      temp[i] = arr[k];
+    int temp = 0;
+    for(int i = arr.length-1; i >= k; i--){
+      temp = arr[k];
+      arr[k] = arr[i];
+      arr[i] = temp;
       k++;
-    }
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = temp[i];
     }
   }
 ```
 <br>
-My fix adresses the issue by storing all of the elements in a seperate array so no element is lost. The orginal method loses some of the elements by copying elements directly over to the other side of the array.
+My fix adresses the issue by having a ```temp``` variable that stores the value of one of the elements being swap so it is not lost like in the orginal version of the method.
 
 ## Part 2 - The "grep" command options
 <br>
