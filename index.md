@@ -6,4 +6,4 @@ Hello Github
 
 [Lab Report 3](https://BenMiller0.github.io/cse15l-lab-reports/Lab-Report3.html)
 
-[Lab Report 3](https://BenMiller0.github.io/cse15l-lab-reports/Lab-Report4.html)
+[Lab Report 4](https://BenMiller0.github.io/cse15l-lab-reports/Lab-Report4.html)
