@@ -52,7 +52,7 @@ My fix adresses the issue by having a ```temp``` variable that stores the value 
 
 ## Part 2 - The "grep" command options
 <br>
-The "-l" arguement in the grep command only lists the file names that contian the found lines. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+The "-l" option in the grep command only lists the file names that contian the found lines. Found from: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 <br>
 Example 1:
 ```
