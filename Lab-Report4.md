@@ -14,7 +14,7 @@ Typed git clone and then copy pasted the ssh link from my github fork.
 ## Step 6
 ![code](step6.jpg)
 <br>
-Typed ```cd la``` and <tab> to auto complete it to ```cd lab3```
+Typed ```cd la``` and <tab> to auto complete it to ```cd lab7```
 <br>
 Pasted ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore``` from a txt file that contians commands I use alot. Had to complete the java command with ```ListExamplesTests``` so it ran the correct test file.
 <br>
