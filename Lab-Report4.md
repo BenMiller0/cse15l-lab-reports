@@ -24,6 +24,7 @@ Pasted ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` a
 <br>
 Typed ```vim``` and then ```Lis``` pressed <tab> and then typed ```.java```.
 <br>
+
 ![image](step7.2.jpg)
 <br>
 Typed ```/fix``` and <enter> to go to the comment above the line that needs to be fixed. Pressed <down> <left> <left> <left> <left> <left> <left> <left> to get to the number that needs to be replaced. Pressed <r> <2> to replace the one with a two. Ran the command ```:wq``` to save and quit vim.
