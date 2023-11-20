@@ -113,7 +113,7 @@ chapter-6.txt:fast
 chapter-6.txt:fast
 chapter-6.txt:fast
 ```
-Searched for "fast" and printed all the files that contian it and the part of the file that matched.
+Searched for "fast" and printed all the files that contian it and the part of the file that matched in the 911report directorty.
 <br>
 Example 2:
 ```
