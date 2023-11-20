@@ -16,12 +16,19 @@ Typed git clone and then copy pasted the ssh link from my github fork.
 <br>
 Typed ```cd la``` and <tab> to auto complete it to ```cd lab3```
 <br>
-<up> <up> <up> <up> <up> <up> <up> 
+Pasted ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` and ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore``` from a txt file that contians commands I use alot. Had to complete the java command with ```ListExamplesTests``` so it ran the correct test file.
+<br>
 
 ## Step 7
-
+![image](step7.1.jpg) 
+<br>
+Typed ```vim``` and then ```Lis``` pressed <tab> and then typed ```.java```.
+![image](step7.2.jpg)
+<br>
+Typed ```/fix``` and <enter> to go to the comment above the line that needs to be fixed. Pressed <down> <left> <left> <left> <left> <left> <left> <left> to get to the number that needs to be replaced. Pressed <r> <2> to replace the one with a two. Ran the command ```:wq:``` to save and quit vim.
 
 ## Step 8
-
+![image](step8.jpg) 
+Pressed <up> <up> <up> to get the javac command from my history and run it again, ran it. Did <up> <up> <up> again to get the java command to run again. Saw that all test now succeed. 
 
 ## Step 9
