@@ -63,7 +63,6 @@ grep: biomed: Is a directory
 grep: government: Is a directory
 grep: plos: Is a directory
 ```
-<br>
 In this example I searched for all the files that contian the letter e within the techinical directory. There are no files in this directory so it displayed all the directories that contian files with the letter e.
 <br>
 Example 2:
@@ -88,7 +87,6 @@ chapter-8.txt
 chapter-9.txt
 preface.txt
 ```
-<br>
 In this example I displayed just the file names of the file that contained the letter e in the 911report directory.
 <br>
 This command is searching for all of the files that contian the given string. It can even print out the directories that contian the string. This is useful if you only want to know the files or directories that contian what your looking for and are not concered with their contents.
@@ -120,7 +118,6 @@ Example 2:
 timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/911report (main)
 $ grep -o "zzz" *
 ```
-<br>
 In this example, grep did not find any files that contian "zzz" that matched in the 911report directort.
 <br>
 This command prints out the file name that matches the given string and prints out the contents of the file that matches the string. This could be useful for seeing what specifically matches inside of the files.
@@ -140,7 +137,6 @@ $ grep -h "is not very" *
           relationship between subunits is not very flexible. The
           reaction being catalyzed is not very demanding, or if the
 ```
-<br>
 In this example I displayed all of the lines that contian "is not very" within the biomed directory.
 <br>
 Example 2:
@@ -164,7 +160,6 @@ $ grep -h "catch" *
           based on comparability with the hypothetical catchment
           or that fall into one of the catch-all subfamilies (such
 ```
-<br>
 In this example I displaced all the lines in all the files in the biomed directory that contian "catches".
 <br>
 This command is priniting out only the lines that contian the given search querery, not the file names. This could be useful if you are only concered with the lines of content that match and do not care about the file names.
@@ -194,7 +189,6 @@ State_Planning_Report.txt:2480
 State_Planning_Special_Report.txt:477
 Strategic_report.txt:1112
 ```
-<br>
 In this example I searched for the count of all the "a"s in all the files in the directory.
 <br>
 Example 2:
@@ -219,7 +213,6 @@ State_Planning_Report.txt:2479
 State_Planning_Special_Report.txt:495
 Strategic_report.txt:1123
 ```
-<br>
 In this example I searched for the count of white spaces in all the files.
 <br>
 This command could be useful if you are only concered about the count of lines that contian a certian pattern. A more interesting use that is shown in example 2 is finding how many line contian at least one empty space.
