@@ -108,11 +108,15 @@ chapter-6.txt:fast
 chapter-6.txt:fast
 chapter-6.txt:fast
 ```
+Searched for "fast" and printed all the files that contian it and the part of the file that matched.
+<br>
 Example 2:
 ```
 timet@Bens-xps15 MINGW64 ~/Desktop/CSE_15l/LabReport3/docsearch/technical/911report (main)
 $ grep -o "zzz" *
 ```
+<br>
+In this example, grep did not find any files that contian "zzz" that matched.
 <br>
 This command prints out the file name that matches the given string and prints out the contents of the file that matches the string. This could be useful for seeing what specifically matches inside of the files.
 
