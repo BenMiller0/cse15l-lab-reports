@@ -36,6 +36,6 @@ Pressed `<up> <up> <up>` to get the javac command from my history and run it aga
 ## Step 9
 ![image](step9.jpg)
 <br>
-Typed ```git commit Lis``` and pressed tab to autocomplete. Pressed ```i``` to go into insert mode to write my commit message. Typed ```hi``` as my commit message, `<esc>`, and then ```:wq``` to quit and save.
+Typed ```git commit Lis``` and pressed tab to autocomplete. Pressed ```i``` to go into insert mode to write my commit message. Typed ```hi``` as my commit message, `<esc>`, and then ```:wq <enter>``` to quit and save.
 <br>
 Typed out ```git push``` to finally push my changes to github.
