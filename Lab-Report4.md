@@ -22,7 +22,7 @@ Pasted ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` a
 ## Step 7
 ![image](step7.1.jpg) 
 <br>
-Typed ```vim``` and then ```Lis``` pressed ```<tab>``` to fill in vim and then typed ```.java```.
+Typed ```vim``` and then ```Lis``` pressed `<tab>` to fill in vim and then typed ```.java```.
 <br>
 
 ![image](step7.2.jpg)
