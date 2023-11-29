@@ -27,14 +27,14 @@ Typed ```vim``` and then ```Lis``` pressed `<tab>` to fill in vim and then typed
 
 ![image](step7.2.jpg)
 <br>
-Typed ```/fix``` and <enter> to go to the comment above the line that needs to be fixed. Pressed <down> <left> <left> <left> <left> <left> <left> <left> to get to the number that needs to be replaced. Pressed <r> <2> to replace the one with a two. Ran the command ```:wq``` to save and quit vim.
+Typed ```/fix``` and <enter> to go to the comment above the line that needs to be fixed. Pressed `<down> <left> <left> <left> <left> <left> <left> <left>` to get to the number that needs to be replaced. Pressed `<r> <2>` to replace the one with a two. Ran the command ```:wq``` to save and quit vim.
 
 ## Step 8
 ![image](step8.jpg) 
-Pressed <up> <up> <up> to get the javac command from my history and run it again, ran it. Did <up> <up> <up> again to get the java command to run again. Saw that all test now succeed. 
+Pressed `<up> <up> <up>` to get the javac command from my history and run it again, ran it. Did `<up> <up> <up>` again to get the java command to run again. Saw that all test now succeed. 
 
 ## Step 9
 ![image](step9.jpg)
-Typed ```git commit Lis``` and pressed tab to autocomplete. Pressed ```i``` to go into insert mode to write my commit message. Typed ```hi``` as my commit message, <esc>, and then ```:wq``` to quit and save.
+Typed ```git commit Lis``` and pressed tab to autocomplete. Pressed ```i``` to go into insert mode to write my commit message. Typed ```hi``` as my commit message, `<esc>`, and then ```:wq``` to quit and save.
 <br>
 Typed out ```git push``` to finally push my changes to github.
