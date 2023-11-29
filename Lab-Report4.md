@@ -9,7 +9,7 @@ Typed out ```ssh cs15lfa23gq@ieng6.ucsd.edu``` from memory to remotly log into i
 ## Step 5
 ![code](step5.jpg)
 <br>
-Typed git clone and then copy pasted the ssh link from my github fork.
+Typed ```git clone``` and then pasted the ssh github link to my fork of the lab7 repo ```git@github.com:BenMiller0/cse15l-lab-reports.git```
 
 ## Step 6
 ![code](step6.jpg)
