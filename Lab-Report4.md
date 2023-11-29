@@ -4,7 +4,7 @@
 ## Step 4
 ![code](step4.jpg)
 <br>
-Typed out ```ssh cs15lfa23gq@ieng6.ucsd.edu``` from memory. Was able to not have to type in my password because of my key setup.
+Typed out ```ssh cs15lfa23gq@ieng6.ucsd.edu``` from memory to remotly log into ieng6. Was able to not have to type in my password because of my key setup.
 
 ## Step 5
 ![code](step5.jpg)
