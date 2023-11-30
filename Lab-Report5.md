@@ -9,15 +9,19 @@ Here is the terminal output when I run ```bash test.sh``` on my terminal:
 ![1](IntialPost2.jpg)
 <br>
 This is the ```test.sh``` script I wrote:
+<br>
 ![2](IntialPost1.jpg)
 <br>
 This is my JUnit test file:
+<br>
 ![4](IntialPost4.jpg)
 <br>
 This is the directory's structure:
+<br>
 ![3](IntialPost3.jpg)
 <br>
 This is my Linked List implementation I am trying to test:
+<br>
 ![5](IntialPost5.jpg)
 
 ## Part 2 - Reflection
