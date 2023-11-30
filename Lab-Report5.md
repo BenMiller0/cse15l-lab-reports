@@ -50,8 +50,19 @@ Here is the terminal output after running the bash script:
 ![3](Reponse3.jpg)
 <br>
 It looks like my bash script is behaving as expected now! Thank you for the help.
+<br>
+
 
 <b> [All Information about the setup] </b>
+<br>The file & directory structure needed:<br>
+
+
+<br>The contents of each file before fixing the bug:<br>
+
+<br>The full command line ran to trigger the bug:<br>
+
+<br>A description of what to edit to fix the bug:<br>
+
 
 
 ## Part 2 - Reflection
