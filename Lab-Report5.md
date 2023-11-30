@@ -7,6 +7,7 @@ a text file called ```results.txt```. But I am getting error messages in the ter
 so I think it might have something to do with the way my files are set up in the directory?
 <br>
 Here is the terminal output when I run ```bash test.sh``` on my terminal:
+<br>
 ![1](IntialPost2.jpg)
 <br>
 This is the ```test.sh``` script I wrote:
@@ -27,10 +28,20 @@ This is my Linked List implementation I am trying to test:
 <br>
 
 <b> [TA Response] </b>
-Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
-at the current way your directory is set up and compare.
+<br> Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
+at the current way your directory is set up and compare. Do you need to make changes to the way you set up your files so it recongizes JUnit correctly?
+<br>
 
-
+<b> [Student Response] </b>
+<br> I moved the ```.jar``` files in the ```lib``` directory creating the directory structure shown here:
+<br>
+![1](Reponse1.jpg)
+<br>
+Now when I run the bash script it outputs the following text into the ```results.txt``` file:
+<br>
+![1](Reponse1.jpg)
+<br>
+Looks like my bash script is behaving as expected now! Thank you for the help.
 
 ## Part 2 - Reflection
 Something that really interested me that I learned this half of the qauter had to do with exit codes and using them to our advantage in bash.
