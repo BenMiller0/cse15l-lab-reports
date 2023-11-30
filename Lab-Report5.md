@@ -1,5 +1,6 @@
 # Lab Report 5
 
+
 ## Part 1 - Debugging Senerio
 <b> [Student Post] Something wrong with test.sh bash script </b>
 <br> Hi! I am trying to write a bash script that compiles and runs JUnit tests on my ```CustomLinkedList.java``` file. It should put the output of the test runs into
@@ -27,13 +28,16 @@ This is my Linked List implementation I am trying to test:
 ![5](IntialPost5.jpg)
 <br>
 
+
 <b> [TA Response] </b>
 <br> Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
 at the current way your directory is set up and compare. Do you need to make changes to the way you set up your files so it recongizes JUnit correctly?
 <br>
 
+
 <b> [Student Response] </b>
-<br> I moved the ```.jar``` files in the ```lib``` directory creating the directory structure shown here:
+<br> I looked at the bash script and realized I have ```lib/``` in the commands I am running. To try to fix this, I moved the ```.jar``` files in the ```lib``` directory creating 
+the directory structure shown here:
 <br>
 ![1](Reponse1.jpg)
 <br>
@@ -45,7 +49,9 @@ Here is the terminal output after running the bash script:
 <br>
 ![3](Reponse3.jpg)
 <br>
-Looks like my bash script is behaving as expected now! Thank you for the help.
+It looks like my bash script is behaving as expected now! Thank you for the help.
+
+
 
 ## Part 2 - Reflection
 Something that really interested me that I learned this half of the qauter had to do with exit codes and using them to our advantage in bash.
