@@ -51,6 +51,7 @@ Here is the terminal output after running the bash script:
 <br>
 It looks like my bash script is behaving as expected now! Thank you for the help.
 
+<b> [All Information about the setup] </b>
 
 
 ## Part 2 - Reflection
