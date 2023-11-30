@@ -2,11 +2,10 @@
 
 ## Part 1 - Debugging Senerio
 <b> Something wrong with test.sh bash script </b>
-<br> My test.sh script is ex
-
-
-
-
+<br> Hi! I am trying to write a bash script that compiles and runs JUnit tests on my ```CustomLinkedList.java``` file. It should put the output of the test runs into
+a text file called ```results.txt```. But I am getting error messages in the terminal that make me think it is not recongizing JUnit. 
+<br>
+Here is the terminal output when I run ```bash test.sh```
 
 
 
