@@ -39,7 +39,11 @@ at the current way your directory is set up and compare. Do you need to make cha
 <br>
 Now when I run the bash script it outputs the following text into the ```results.txt``` file:
 <br>
-![1](Reponse2.jpg)
+![2](Reponse2.jpg)
+<br>
+Here is the terminal output after running the bash script:
+<br>
+![3](Reponse3.jpg)
 <br>
 Looks like my bash script is behaving as expected now! Thank you for the help.
 
