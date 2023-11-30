@@ -5,9 +5,20 @@
 <br> Hi! I am trying to write a bash script that compiles and runs JUnit tests on my ```CustomLinkedList.java``` file. It should put the output of the test runs into
 a text file called ```results.txt```. But I am getting error messages in the terminal that make me think it is not recongizing JUnit. 
 <br>
-Here is the terminal output when I run ```bash test.sh```
-
-
+Here is the terminal output when I run ```bash test.sh``` on my terminal:
+![1](IntialPost2.jpg)
+<br>
+This is the ```test.sh``` script I wrote:
+![2](IntialPost1.jpg)
+<br>
+This is my JUnit test file:
+![4](IntialPost4.jpg)
+<br>
+This is the directory's structure:
+![3](IntialPost3.jpg)
+<br>
+This is my Linked List implementation I am trying to test:
+![5](IntialPost5.jpg)
 
 ## Part 2 - Reflection
 Something that really interested me that I learned this qauter had to do with exit codes and using them to our advantage in bash.
