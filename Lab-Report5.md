@@ -1,9 +1,10 @@
 # Lab Report 5
 
 ## Part 1 - Debugging Senerio
-<b> Something wrong with test.sh bash script </b>
+<b> [Student Post] Something wrong with test.sh bash script </b>
 <br> Hi! I am trying to write a bash script that compiles and runs JUnit tests on my ```CustomLinkedList.java``` file. It should put the output of the test runs into
-a text file called ```results.txt```. But I am getting error messages in the terminal that make me think it is not recongizing JUnit. 
+a text file called ```results.txt```. But I am getting error messages in the terminal that make me think it is not recongizing JUnit. I think my syntax is correct,
+so I think it might have something to do with the way my files are set up in the directory?
 <br>
 Here is the terminal output when I run ```bash test.sh``` on my terminal:
 ![1](IntialPost2.jpg)
@@ -23,7 +24,11 @@ This is the directory's structure:
 This is my Linked List implementation I am trying to test:
 <br>
 ![5](IntialPost5.jpg)
+<br>
 
+<b> [TA Response] </b>
+Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
+at the current way your directory is set up and compare.
 
 
 
