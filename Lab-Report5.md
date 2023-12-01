@@ -4,8 +4,7 @@
 ## Part 1 - Debugging Senerio
 <b> [Student Post] Something wrong with test.sh bash script </b>
 <br> Hi! I am trying to write a bash script that compiles and runs JUnit tests on my ```CustomLinkedList.java``` file. It should put the output of the test runs into
-a text file called ```results.txt```. But I am getting error messages in the terminal that make me think it is not recongizing JUnit. I think my syntax is correct,
-so I think it might have something to do with the way my files are set up in the directory?
+a text file called ```results.txt```. Is there something wrong with the way I wrote my bash script? I cannot seem to get it to work properly.
 <br>
 Here is the terminal output when I run ```bash test.sh``` on my terminal:
 <br>
