@@ -59,6 +59,7 @@ Before resolving the bug: <br>
 <br> After: <br>
 ![1](Reponse1.jpg)
 
+
 <br>The contents of each file before fixing the bug:<br>
 Contents of the JUnit test file ```CustomLinkedListTest.java```:
 <br>
@@ -74,9 +75,9 @@ The bash test script ```test.sh```:
 <br>
 
 
-
 <br>The full command line ran to trigger the bug:<br>
-```bash test.sh``` (With the wrong directory struture in place) triggers the bug.
+Running ```bash test.sh``` (With the wrong directory struture in place) triggers the bug.
+
 
 <br>A description of what to edit to fix the bug:<br>
 Move the ```.jar``` files used to make sure the unit tests run without error into the ```lib``` directory so the bash script finds the classpath
