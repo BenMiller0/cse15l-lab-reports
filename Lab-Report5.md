@@ -79,7 +79,8 @@ The bash test script ```test.sh```:
 ```bash test.sh``` (With the wrong directory struture in place) triggers the bug.
 
 <br>A description of what to edit to fix the bug:<br>
-
+Move the ```.jar``` files used to make sure the unit tests run without error into the ```lib``` directory so the bash script finds the classpath
+correctly.
 
 
 ## Part 2 - Reflection
