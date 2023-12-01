@@ -23,7 +23,7 @@ This is the directory's structure:
 
 
 <b> [TA Response] </b>
-<br> Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
+<br> Take a look at the commands you are running in the bash script you have written. Look at the directory of the classpath your are telling your bash script to go to. What is that directory? Look 
 at the current way your directory is set up and compare. Do you need to make changes to the way you set up your files so it recongizes JUnit correctly?
 <br>
 <br>
