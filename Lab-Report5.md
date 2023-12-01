@@ -15,23 +15,19 @@ This is the ```test.sh``` script I wrote:
 <br>
 ![2](IntialPost1.jpg)
 <br>
-This is my JUnit test file:
-<br>
-![4](IntialPost4.jpg)
-<br>
 This is the directory's structure:
 <br>
 ![3](IntialPost3.jpg)
 <br>
-This is my Linked List implementation I am trying to test:
 <br>
-![5](IntialPost5.jpg)
 <br>
 
 
 <b> [TA Response] </b>
 <br> Take a look at the commands you are running in the bash script you have written. Look at the classpath your are telling your computer to go to. What is the directory? Look 
 at the current way your directory is set up and compare. Do you need to make changes to the way you set up your files so it recongizes JUnit correctly?
+<br>
+<br>
 <br>
 
 
@@ -51,15 +47,36 @@ Here is the terminal output after running the bash script:
 <br>
 It looks like my bash script is behaving as expected now! Thank you for the help.
 <br>
+<br>
+<br>
+
 
 
 <b> [All Information about the setup] </b>
 <br>The file & directory structure needed:<br>
-
+Before resolving the bug: <br>
+![3](IntialPost3.jpg)
+<br> After: <br>
+![1](Reponse1.jpg)
 
 <br>The contents of each file before fixing the bug:<br>
+Contents of the JUnit test file ```CustomLinkedListTest.java```:
+<br>
+![4](IntialPost4.jpg)
+<br>
+This is the file that has the Linked List implementation being tested ```CustomLinkedList.java```:
+<br>
+![5](IntialPost5.jpg)
+<br>
+The bash test script ```test.sh```:
+<br>
+![2](IntialPost1.jpg)
+<br>
+
+
 
 <br>The full command line ran to trigger the bug:<br>
+```bash test.sh``` (With the wrong directory struture in place) triggers the bug.
 
 <br>A description of what to edit to fix the bug:<br>
 
