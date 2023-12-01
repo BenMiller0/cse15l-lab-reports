@@ -31,7 +31,7 @@ at the current way your directory is set up and compare. Do you need to make cha
 
 
 <b> [Student Response] </b>
-<br> I looked at the bash script and realized I have ```lib/``` in the commands I am running. To try to fix this, I moved the ```.jar``` files in the ```lib``` directory creating 
+<br> I looked at the bash script and realized I have ```.;lib/``` after the ```-cp``` option in the commands I am running. To try to fix this, I moved the ```.jar``` files in the ```lib``` directory creating 
 the directory structure shown here:
 <br>
 ![1](Reponse1.jpg)
@@ -79,7 +79,7 @@ Running ```bash test.sh``` (With the wrong directory struture in place) triggers
 
 
 <br>A description of what to edit to fix the bug:<br>
-Move the ```.jar``` files used to make sure the unit tests run without error into the ```lib``` directory so the bash script finds the classpath
+Move the ```.jar``` files ```hamcrest-core-1.3.jar``` and ```"junit-4.13.2.jar"``` into the ```\lib``` directory so the bash script finds the classpath
 correctly.
 
 
