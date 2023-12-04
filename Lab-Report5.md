@@ -81,7 +81,8 @@ Running ```bash test.sh``` (With the wrong directory struture in place) triggers
 <br>A description of what to edit to fix the bug:<br>
 Move the ```.jar``` files ```hamcrest-core-1.3.jar``` and ```"junit-4.13.2.jar"``` into the ```\lib``` directory so the bash script finds the classpath
 correctly.
-
+<br>
+<br>
 
 ## Part 2 - Reflection
 Something that really interested me that I learned this half of the qauter had to do with exit codes and using them to our advantage in bash.
